@@ -1,12 +1,12 @@
-# IPL-Data-Analysis
+# IPL-Data-Analysis by  Apache Spark
 
-Things learned fro mthis project
+Things learned from this project
 
 1.  Intro to Spark
 2.  Databricks -free community version.
 3.  Connect S3 bucket to Databricks using (public access)
 
-# Databricks AccountSetup
+# Databricks Account Setup
 
 Create account with "Community Edition" for free access
 
@@ -72,5 +72,5 @@ Follow the steps below:
 
 # Best practices
 
-1.  Always create your own schema first so that data types doesn't change in your data
-2.  
+1.  Always create your own schema first so that data types doesn't change in your data.
+2.  cluster pauses, if it is idle for more than 60 min. so pause it when not in use.
