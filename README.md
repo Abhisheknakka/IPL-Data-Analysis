@@ -6,7 +6,37 @@ Things learned fro mthis project
 2.  Databricks -free community version.
 3.  Connect S3 bucket to Databricks using (public access)
 
-Making S3 bucket publicly accessible
+# Databricks AccountSetup
+
+Create account with "Community Edition" for free access
+
+## **Step 1: Create a cluster**
+
+1.  Click ![compute icon](https://docs.databricks.com/en/_images/clusters-icon.png){alt="compute icon"} **Compute** in the sidebar.
+
+2.  On the Compute page, click **Create Cluster**. This opens the New Cluster page.
+
+3.  Specify a unique name for the cluster, leave the remaining values in their default state, and click **Create Cluster**
+
+For more documentation, refer: <https://docs.databricks.com/en/index.html>
+
+## **Step 2: Create a Databricks notebook**
+
+To get started writing and executing interactive code on Databricks, create a notebook.
+
+1.  Click ![New Icon](https://docs.databricks.com/en/_images/create-icon.png){alt="New Icon"} **New** in the sidebar, then click **Notebook**.
+
+2.  On the Create Notebook page:
+
+    -   Specify a unique name for your notebook.
+
+    -   Make sure the default language is set to **Python** or **Scala**.
+
+    -   Select the cluster you created in step 1 from the **Cluster** dropdown.
+
+    -   Click **Create**.
+
+# Making S3 bucket publicly accessible
 
 Follow the steps below:
 
@@ -39,3 +69,8 @@ Follow the steps below:
     ```
 
 8.  Save changes and done
+
+# Best practices
+
+1.  Always create your own schema first so that data types doesn't change in your data
+2.  
