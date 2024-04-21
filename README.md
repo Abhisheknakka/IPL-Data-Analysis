@@ -1,5 +1,7 @@
 # IPL-Data-Analysis by  Apache Spark
 
+Data source: <https://data.world/raghu543/ipl-data-till-2017/workspace/data-dictionary>
+
 Things learned from this project
 
 1.  Intro to Spark
@@ -73,4 +75,4 @@ Follow the steps below:
 # Best practices
 
 1.  Always create your own schema first so that data types doesn't change in your data.
-2.  cluster pauses, if it is idle for more than 60 min. so pause it when not in use.
+2.  Cluster pauses, if it is idle for more than 60 min. so pause it when not in use. Terminating sessions when they're not in use can help optimize resource usage and reduce costs, especially in cloud environments where resources are billed based on usage.
