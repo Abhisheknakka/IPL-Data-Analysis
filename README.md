@@ -1,4 +1,4 @@
-# IPL-Data-Analysis by  Apache Spark
+# IPL-Data-Analysis by Apache Spark
 
 Data source: <https://data.world/raghu543/ipl-data-till-2017/workspace/data-dictionary>
 
@@ -14,7 +14,7 @@ Create account with "Community Edition" for free access
 
 ## **Step 1: Create a cluster**
 
-1.  Click ![compute icon](https://docs.databricks.com/en/_images/clusters-icon.png){alt="compute icon"} **Compute** in the sidebar.
+1.  Click **Compute** in the sidebar.
 
 2.  On the Compute page, click **Create Cluster**. This opens the New Cluster page.
 
@@ -26,7 +26,7 @@ For more documentation, refer: <https://docs.databricks.com/en/index.html>
 
 To get started writing and executing interactive code on Databricks, create a notebook.
 
-1.  Click ![New Icon](https://docs.databricks.com/en/_images/create-icon.png){alt="New Icon"} **New** in the sidebar, then click **Notebook**.
+1.  Click **New** in the sidebar, then click **Notebook**.
 
 2.  On the Create Notebook page:
 
